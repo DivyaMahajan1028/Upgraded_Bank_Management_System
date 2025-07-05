@@ -5,13 +5,13 @@ set sql_safe_updates = 0
 SELECT * FROM customer_info;
 -- DIVYA	3825	1145000
 -- RAM	    9147	53000
--- SITA	4315	25200
+-- SITA	    4315	25200
 -- SIMRAN	6605	5000
 -- KRISH	5541	400
 -- ROHAN	4309	3800
 -- DIVYA	1760	552800
 -- OM	    3131	6000
--- MAYA	4371	1001
+-- MAYA	    4371	1001
 -- PRIYA	3673	2000
 
 SELECT * FROM transaction_log;
@@ -83,7 +83,7 @@ FROM user_withdrawals;
 -- ROHAN	7000	2
 -- OM	    2000	3
 -- PRIYA	1000	4
--- MAYA	300	    5
+-- MAYA	    300	    5
 
 -- TOP 3 FREQUENT CUSTOMERS (WITH CTE)
 WITH customer_counts AS (
@@ -92,7 +92,7 @@ FROM transaction_log
 GROUP BY name 
 )
 SELECT * FROM customer_counts ORDER BY count_number DESC; 
--- MAYA	7
+-- MAYA	    7
 -- ROHAN	5
 -- DIVYA	4
 -- PRIYA	3
@@ -121,7 +121,7 @@ WITH txn_rank AS (
 7	DIVYA	1760	credit	2000	2025-07-04 17:45:21	3
 18	MAYA	4371	debit	300	    2025-07-04 17:49:14	1
 17	MAYA	4371	credit	100	    2025-07-04 17:49:08	2
-16	MAYA	4371	credit	400	2025-07-04 17:49:04	3
+16	MAYA	4371	credit	400	    2025-07-04 17:49:04	3
 11	OM	    3131	debit	2000	2025-07-04 17:47:27	1
 10	OM	    3131	credit	8000	2025-07-04 17:47:00	2
 21	PRIYA	3673	debit	1000	2025-07-04 18:55:44	1
