@@ -153,7 +153,12 @@ You can optionally include an analytics_queries.sql file that contains:
 
 💡 This helps showcase real analytics even if your live app has no old user data.
 
-🎬 How to Present the Project (Video Demo)
+🎬 Demo Videro
+- 📘 **Part 1: Python Implementation (VS Code)**  
+  👉 [Watch on Google Drive](https://drive.google.com/file/d/1VRetnra100aZqbf4GKYa8WohPu1NOhWO/view?usp=drive_link)
+
+- 🛢️ **Part 2: SQL Queries (MySQL Workbench)**  
+  👉 [Watch on Google Drive](https://drive.google.com/file/d/1JtypP3FuWsrH59UK9ZqgsfSEV0LxRQtr/view?usp=drive_link))
 
 🎤 Record a voice-narrated screen demo explaining:
 
@@ -171,8 +176,6 @@ OBS Studio (recommended)
 
 Windows + G (Quick Recording)
 
-🗣️ Tip: Speak clearly, explain each step simply, and showcase your SQL skills too!
-
 📁 Recommended GitHub Folder Structure
 
 Bank_Management_Upgrade/
@@ -182,7 +185,10 @@ Bank_Management_Upgrade/
 
 👤 About the Developer
 
-👩‍💻 Divya Mahajan🚀 Transitioning into IT with strong skills in Python & SQL🌱 On a mission to build impactful and analytical projects🔗 Exploring Data Science
+👩‍💻 Divya Mahajan
+🚀 Transitioning into IT with strong skills in Python & SQL
+🌱 On a mission to build impactful and analytical projects
+🔗 Exploring Data Science
 
 ⭐ If you like the project, don’t forget to star it and leave a comment!
 
