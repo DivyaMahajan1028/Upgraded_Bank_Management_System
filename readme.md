@@ -153,7 +153,7 @@ You can optionally include an analytics_queries.sql file that contains:
 
 💡 This helps showcase real analytics even if your live app has no old user data.
 
-🎬 Demo Videro
+🎬 Demo Video
 - 📘 **Part 1: Python Implementation (VS Code)**  
   👉 [Watch on Google Drive](https://drive.google.com/file/d/1VRetnra100aZqbf4GKYa8WohPu1NOhWO/view?usp=drive_link)
 
